@@ -22,7 +22,7 @@
 #
 
 # Include DU common configuration
-include vendor/du/config/common_full_phone.mk
+include vendor/candy/config/common_full_phone.mk
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/google/sunfish/aosp_sunfish.mk)
@@ -31,7 +31,11 @@ $(call inherit-product, device/google/sunfish/aosp_sunfish.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
-PRODUCT_NAME := du_sunfish
+# Boot animation
+TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 2340
+
+PRODUCT_NAME := candy_sunfish
 PRODUCT_DEVICE := sunfish
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 4a
