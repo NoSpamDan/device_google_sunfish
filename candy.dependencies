@@ -1,0 +1,17 @@
+[
+ {
+   "repository":  "CandyDevicesdevice_google_sunfish-sepolicy",
+   "target_path": "device/google/sunfish-sepolicy",
+   "branch":      "c11"
+ },
+ {
+   "repository":  "CandyDevices/kernel_google_sunfish",
+   "target_path": "kernel/google/sunfish",
+   "branch":      "c11"
+ },
+ {
+   "repository":  "SecretIngredients/vendor_google",
+   "target_path": "vendor/google",
+   "branch":      "c11"
+ }
+]
