@@ -20,5 +20,6 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     aosp_sunfish-userdebug \
+    candy_sunfish-eng \
     candy_sunfish-user \
     candy_sunfish-userdebug
