@@ -50,4 +50,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=google/sunfish/sunfish:11/RQ2A.210305.006/7119741:user/release-keys
 
 $(call inherit-product-if-exists, vendor/google/sunfish/sunfish-vendor.mk)
-$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
+#$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
+$(call inherit-product, vendor/gapps/config.mk)
